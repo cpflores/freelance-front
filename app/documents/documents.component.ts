@@ -6,7 +6,6 @@ import { Document } from './document';
   selector: 'documents',
   templateUrl: 'documents.component.html'
 })
-
 export class DocumentsComponent {
   pageTitle: string = "Document Dashboard"
 
