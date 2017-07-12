@@ -6,7 +6,7 @@ import { Document } from './document';
 
 @Injectable()
 export class DocumentService {
-  private documentsUrl = 'http://localhost:3001/freelance_documents.json';
+  private documentsUrl = 'https://levitate-documents.herokuapp.com/freelance_documents';
 
   constructor(
     private http: Http
